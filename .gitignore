@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+.aws/
+.codex/
+.agents/
+test-results/
+guide.txt
