@@ -5,7 +5,6 @@ import { createPortal } from 'react-dom'
 import gsap from 'gsap'
 import { ArrowLeft, X, ChevronRight, ExternalLink, ArrowUpRight, Code2 } from 'lucide-react'
 
-/* ── Achievement Data ── */
 export interface Achievement {
   id: string
   title: string

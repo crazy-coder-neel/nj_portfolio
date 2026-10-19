@@ -4,7 +4,6 @@ import { mkdtemp, writeFile, readdir } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 
-// Start `npm start -- --port 3002` first. Requires Chrome and Node.js 22.
 const base = process.env.CHECK_URL || 'http://localhost:3002'
 const directory = await mkdtemp(join(tmpdir(), 'portfolio-check-'))
 const response = await fetch(base)
